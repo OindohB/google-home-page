@@ -1,0 +1,57 @@
+.container{
+    margin:0;
+}
+ #nav{
+     display: flex;
+     justify-content:flex-end;
+     margin-top:20px;
+ }
+   #nav a{
+       margin-right:20px;
+   }
+    #nav a.topimage{
+        width:20px;
+        background:blue;
+        height:20px;
+        border-radius: 10px;
+    }
+       #middle{
+           margin-top:200px;
+         }
+         #logo{
+             text-align: center;
+
+         }
+         #searchbarcontainer{
+             margin-top: 20px;
+             text-align:  center;
+           }
+           #searchbar{
+               padding-top:15px;
+               padding-bottom:15px
+               outline: 0;
+               width:460px;
+               border-radius:12px;
+               border:2px solid #c4c4c4;
+             }
+             #button{
+                 margin-top: 20px;
+                 display:flex;
+                 justify-content: center
+                 }
+                 .button{
+                     margin-left: 10px;
+                     margin-right: 10px;
+                     padding:5px 10px;
+                     border-radius: 3px;
+                     cursor: pointer;
+                     background: rgb(231, 231, 231);
+                 }
+                 #links{
+                     margin-top: 20px;
+                     text-align: center;
+                 }
+
+
+
+             }
